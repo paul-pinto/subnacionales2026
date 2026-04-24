@@ -1,9 +1,6 @@
 name: Actualizar
 
 on:
-  push:
-    branches:
-      - dev
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
